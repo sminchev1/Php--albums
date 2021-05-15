@@ -1,0 +1,7 @@
+[Sat May 15 13:56:30.048749 2021] [authz_core:error] [pid 1624:tid 1844] [client 127.0.0.1:49844] AH01630: client denied by server configuration: C:/xampp/apache/C
+[Sat May 15 13:56:30.423634 2021] [authz_core:error] [pid 1624:tid 1844] [client 127.0.0.1:49844] AH01630: client denied by server configuration: C:/xampp/apache/C, referer: http://mysite.local/
+[Sat May 15 13:56:44.194123 2021] [authz_core:error] [pid 1288:tid 1844] [client 127.0.0.1:49848] AH01630: client denied by server configuration: C:/xampp/apache/C
+[Sat May 15 13:56:44.248089 2021] [authz_core:error] [pid 1288:tid 1844] [client 127.0.0.1:49848] AH01630: client denied by server configuration: C:/xampp/apache/C, referer: http://mysite.local/
+[Sat May 15 13:57:30.132307 2021] [authz_core:error] [pid 1288:tid 1832] [client 127.0.0.1:49849] AH01630: client denied by server configuration: C:/xampp/apache/C
+[Sat May 15 13:57:30.189266 2021] [authz_core:error] [pid 1288:tid 1832] [client 127.0.0.1:49849] AH01630: client denied by server configuration: C:/xampp/apache/C, referer: http://mysite.local/
+[Sat May 15 13:59:35.672874 2021] [authz_core:error] [pid 1288:tid 1844] [client 127.0.0.1:49876] AH01630: client denied by server configuration: C:/xampp/apache/C, referer: http://mysite.local/
