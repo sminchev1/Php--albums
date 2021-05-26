@@ -20,11 +20,12 @@ if(isset($_POST['submit']))
 	echo '<pre>';
 	print_r($row);
 	echo '</pre>';
-	die();
+	
 	
 	if( $num_row == 1 )
 	{
-		echo "Namerih :" . $username;
+		header("Location: albums.php");
+		exit();
 	}
 	else
 	{

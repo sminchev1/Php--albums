@@ -23,22 +23,25 @@ if(isset($_POST['submit']))
 	
 		if( $num_row == 1 )
 	{
-		echo "Namerih :" . $username;
+		echo "Existing account with this email: ".$email." or username: " . $username;
+		Die;
 	}
 	else
 	{
 		$insert = mysqli_query($mysqli, "INSERT INTO `users`(`username`, `password`, `email`) VALUES ('$username', '$password', '$email')");
-		
+		header("Location: albums.php");
+		exit();		
 	}
 	
 	echo '<pre>';
 	print_r($row);
 	echo '</pre>';
-	die();
+	
 	
 	if( $num_row == 1 )
 	{
-		echo "Namerih :" . $username;
+		header("Location: albums.php");
+		exit();
 	}
 	else
 	{
